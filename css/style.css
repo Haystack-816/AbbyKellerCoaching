@@ -4,6 +4,33 @@
 body {
    text-align: center;
 }
+
+h1, .section-heading { 
+   font-family: 'Waterfall', cursive;
+   font-weight: bold;
+}
+
+h3:not(.feature-title) {
+   font-family: 'corinthia', cursive;
+}
+
+p, .feature-title, .feature-item{
+   font-family: 'Open Sans', sans-serif;
+}
+
+.heading-light {
+   color: #ceb698;
+}
+
+
+.heading-dark {
+   color: #62574a
+}
+
+.light-section {
+   background-color: #e3ece9;
+}
+
 .color-section {
    background-color: rgba(127, 171, 179, 0.8);
 }
@@ -25,24 +52,26 @@ body {
 
 /* What I provide Section */
 
+.what-i-provide {
+   padding-top: 15%;
+}
+
 .abby-scrubs {
-   display: flex;
-   flex-direction: column;
    align-items: center;
    justify-content: center;
 }
 
 .abby-scrubs-img {
-   max-width: 60%;
-   max-height: 60%;
+   width: 55%;
+   height: auto;
    border-radius: 50%;
 }
 
 .features-list {
    list-style: disc;
    padding: 7% 15%;
-   margin: auto;
    text-align: left;
+   justify-content: center;
 }
 
 .feature-item {
@@ -52,7 +81,7 @@ body {
 /* Who I help */
 
 .who-i-help {
-   padding: 7% 15%;
+   padding: 15% 15%;
 }
 
 .feature-box {
@@ -74,11 +103,11 @@ body {
 /* About */
 
 .about {
-  padding: 7% 15%;
+  padding: 15% 10% 3%;
 }
 
 /* Resources */
 
 .resource {
-   padding: 3% 5%;
+   padding: 3% 3%;
 }
