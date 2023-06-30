@@ -35,9 +35,6 @@ p, .feature-title, .feature-item{
    background-color: rgba(127, 171, 179, 0.8);
 }
 
-/* Navbar */
-
-
 /* Title Section */
 
 .abby-certs {
@@ -88,7 +85,6 @@ p, .feature-title, .feature-item{
    padding: 4%;
 }
 
-
 .icon {
    color: rgba(48, 87, 114, 0.8);
    margin-bottom: 1rem;
@@ -98,18 +94,10 @@ p, .feature-title, .feature-item{
    color: rgba(157, 225, 112, 0.8);
 }
 
-/* Who I help */
-
 /* About */
 
 .about {
   padding: 15% 10% 3%;
-}
-
-/* Testimonials */
-
-.carousel-item {
-   padding: 7% 15%;
 }
 
 /* Resources */
