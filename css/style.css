@@ -106,6 +106,12 @@ p, .feature-title, .feature-item{
   padding: 15% 10% 3%;
 }
 
+/* Testimonials */
+
+.carousel-item {
+   padding: 7% 15%;
+}
+
 /* Resources */
 
 .resource {
